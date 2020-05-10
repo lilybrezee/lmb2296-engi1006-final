@@ -16,9 +16,9 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/cats")
+@app.route("/art")
 def cats():
-    return render_template("cats.html")
+    return render_template("Art.html")
 
 @app.route("/recipes")
 def recipes():

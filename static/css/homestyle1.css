@@ -1,0 +1,36 @@
+body {
+    padding-left: 200px;
+    padding-top: 20px;
+    color: white;
+    background-color: #355e7e;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif
+    }
+ul.navbar {
+    list-style-type: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 120px }
+h1 {
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    font-size: 25px
+    }
+ul.navbar li {
+    background: #cca2a3 ;
+    outline: 2px solid #627387;
+    margin: 8px 0;
+    padding: 7px;
+    border-right: 10px purple }
+ul.navbar a {
+    text-decoration: none }
+a:link {
+    color: #F5FF1E }
+a:visited {
+    color: #0C675C }
+address {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: thin dotted }
