@@ -79,6 +79,8 @@ div.desc {
 }
 
 address {
+    color: #0e2130;
     margin-top: 15px;
     padding-top: 15px;
-    border-top: thin dotted }
+    border-top: thin dotted
+    }
