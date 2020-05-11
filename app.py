@@ -24,6 +24,10 @@ def cats():
 def recipes():
     return render_template("recipes.html")
 
+@app.route("/classes")
+def classes():
+    return render_template("classes.html")
+
 #start the server
 if __name__ == "__main__":
     app.run()

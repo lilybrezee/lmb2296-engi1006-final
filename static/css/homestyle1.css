@@ -2,8 +2,12 @@ body {
     padding-left: 200px;
     padding-top: 20px;
     color: white;
-    background-color: #355e7e;
+    background-color: #2d455d;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif
+    }
+h1 {
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    font-size: 25px
     }
 ul.navbar {
     list-style-type: none;
@@ -13,23 +17,42 @@ ul.navbar {
     position: absolute;
     top: 30px;
     left: 30px;
-    width: 120px }
-h1 {
-    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
-    font-size: 25px
-    }
+    width: 120px ;
+    text-align: center }
 ul.navbar li {
     background: #cca2a3 ;
-    outline: 2px solid #627387;
     margin: 8px 0;
     padding: 7px;
-    border-right: 10px purple }
+     }
+ul.navbar li:hover {
+    background-color: #c06c84;
+}
 ul.navbar a {
     text-decoration: none }
 a:link {
-    color: #F5FF1E }
+    color: white }
 a:visited {
-    color: #0C675C }
+    color: black }
+div.gallery {
+  margin: 5px;
+  border-style: outset;
+  border-color: #355e7e;
+  float: left;
+  width: 180px;
+  background-color: #355e7e;
+}
+div.gallery:hover {
+  border-style: outset;
+  border-color: #99ccff;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 address {
     margin-top: 15px;
     padding-top: 15px;
